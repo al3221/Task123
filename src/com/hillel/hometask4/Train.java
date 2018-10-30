@@ -1,12 +1,12 @@
 package com.hillel.hometask4;
 
 public class Train {
-    public static boolean probability(int v1, int v2){
-        int time1 = 4/v1;
-        int time2 = 6/v2;
-        if (time1>time2){
+    public static boolean probability(float v1, float v2){
+        float time1 = 4/v1;
+        float time2 = 6/v2;
+        if (time1<time2){
             return false;
         }
-        else return true;
+        else  return true;
     }
 }
