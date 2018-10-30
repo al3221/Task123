@@ -21,7 +21,7 @@ public class QE {
                 System.out.println("Ответ: " + x1 + "Так как дискриминант = 0");
             }
             else if(d<0){
-                System.out.println("Нет решения , дискриминант = 0");
+                System.out.println("Нет решения , дискриминант < 0");
                 return ;
             }
         }
