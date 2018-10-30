@@ -5,8 +5,8 @@ public class Calc {
         double result = a + b*(c/2);
         return result;
     }
-    public static double method2(double a, int b){
-        double result = (a*a + b*b)%2;
+    public static int method2(double a, int b){
+        int result = ((int)a*(int)a + b*b)%2;
         return result;
     }
 
