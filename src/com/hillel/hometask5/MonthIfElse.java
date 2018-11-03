@@ -2,44 +2,29 @@ package com.hillel.hometask5;
 
 public class MonthIfElse {
     public static void ifElse(int x){
-        if (x==1){
-            System.out.println("Наш месяц - январь");
+        if (x==1 || x==2 || x==12){
+            System.out.println("Зима. Тяжелое, но вместе с тем бодрое время"+
+                    "\n" + "Чувствуешь в себе силы, когда понимешь, что можешь пройти такое время." +
+                    ""+"\n" + "Лучшее время для начала придумывания идей");
         }
-        else if (x==2){
-            System.out.println("Наш месяц - февраль");
+        else if (x==3 || x==4 || x==5){
+            System.out.println("Весна. Вот оно,лушее время чтобы начать что-то делать"+
+                    "\n" +"Просыпается природа и в тебе просыпаются силы");
         }
-        else if (x==3){
-            System.out.println("Наш месяц - март");
+        else if (x==6 || x==7 ||x==8){
+            System.out.println("Лето . Вот оно, интересное время"+
+                    "\n"+ "Если весной ничего не начал делать, то все лето строишь грандиозные планы на осень"+
+            "\n"+"Бодрое это время. А если все же стартовал с чего-то летом, то развитие идет идеально"
+                    );
+
         }
-        else if (x==4){
-            System.out.println("Наш месяц - апрель");
+        else if (x==9 || x==10 || x==11 ){
+            System.out.println("Осень. Она либо как в песне ДДТ:Осень, в небе жгут корабли "+
+                    "\n"+"Либо всем ихвестная депрессивная осень ");
         }
-        else if (x==5){
-            System.out.println("Наш месяц - май");
-        }
-        else if (x==6){
-            System.out.println("Наш месяц - июнь");
-        }
-        else if (x==7){
-            System.out.println("Наш месяц - июль");
-        }
-        else if (x==8){
-            System.out.println("Наш месяц - август");
-        }
-        else if (x==9){
-            System.out.println("Наш месяц - сентябрь");
-        }
-        else if (x==10){
-            System.out.println("Наш месяц - октябрь");
-        }
-        else if (x==11){
-            System.out.println("Наш месяц - ноябрь");
-        }
-        else if (x==12){
-            System.out.println("Наш месяц - декабрь");
-        }
+
         else{
-            System.out.println("Нет такого месяца");
+            System.out.println("Вам проблем мало?");
         }
     }
 }
