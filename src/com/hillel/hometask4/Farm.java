@@ -5,6 +5,7 @@ public class Farm {
         if(l<=0 || w<=0){
             System.out.println("Ошибка");
             System.exit(0);
+            
         }
         else {
             int p = (l + w) * 2;
