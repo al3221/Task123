@@ -6,9 +6,10 @@ public class IndexNumders {
         String inStr = "Одесса мой город родной";
         int l = inStr.length();
         for(int i = 0;i<l;i++){
-            inStr.charAt(i) ;
+            inStr.charAt(i);
             symb++;
             if (inStr.charAt(i)=='о'){
+                inStr.toLowerCase();
                 System.out.println("Индекс: "+symb);
             }
         }

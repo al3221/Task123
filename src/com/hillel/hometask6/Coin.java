@@ -3,7 +3,7 @@ package com.hillel.hometask6;
 import com.hillel.utilities.Random;
 
 public class Coin {
-    public static void headsOrTails(){
+    public static int headsOrTails(){
         int heads=0;
         int tails=0;
 
@@ -18,5 +18,6 @@ public class Coin {
         }
         System.out.println("Орел: "+(heads)+" раз");
         System.out.println("Решка: "+(tails)+" раз");
+        return 0;
     }
 }

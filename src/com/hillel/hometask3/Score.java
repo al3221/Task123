@@ -9,6 +9,7 @@ public class Score {
             System.out.println("Число нечетное");
         }
 
+
         return a;
     }
 }
