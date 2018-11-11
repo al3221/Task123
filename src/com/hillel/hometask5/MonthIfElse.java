@@ -21,7 +21,7 @@ public class MonthIfElse {
         else if (x==9 || x==10 || x==11 ){
             System.out.println("Осень. Она либо как в песне ДДТ:Осень, в небе жгут корабли "+
                     "\n"+"Либо всем ихвестная депрессивная осень ");
-            int a;
+
         }
         else{
             System.out.println("Вам проблем мало?");
