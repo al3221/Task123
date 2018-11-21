@@ -19,14 +19,16 @@ public class InverseMinMax {
                     imax = i;
                 }
 
-            }
-            inMinMax[imin] = max;
-            inMinMax[imax] = min ;
 
+            }
+        inMinMax[imin] = max;
+        inMinMax[imax] = min ;
 
         for(int i = 0;i<inMinMax.length;i++){
             System.out.print(inMinMax[i]+" ");
         }
-
     }
+
+
+
 }

@@ -5,6 +5,10 @@ public class Arith {
         int result = 0;
         while (first < number){
             first = first + step;
+            if(first>number){
+                first = first - step;
+                break;
+            }
             result = first;
             System.out.println(result);
 

@@ -4,7 +4,7 @@ import com.hillel.hometask4.Number;
 
 public class StarterNumber {
     public static void main(String[] args) {
-        int[] num = {12,17,16,13,18,11,13,14};
+        int[] num = {12,17,16,13,18,11,13,14,7};
         Numbers.array(num);
 
         System.out.println();

@@ -3,8 +3,8 @@ package com.hillel.hometask1;
 public class Start {
     public static void main(String[] args){
         int result;
-        result = Calculator.add(5,7);
-        System.out.println(result);
+        Calculator.add(5,7);
+
         result = Calculator.sub(100,35);
         System.out.println(result);
         result = Calculator.mul(33,3);

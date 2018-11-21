@@ -3,6 +3,7 @@ package com.hillel.hometask1;
 public class Calculator {
     public static int add(int x, int y){
         int r = x+y;
+        System.out.println(r);
         return r;
     }
     public static int sub(int x, int y){

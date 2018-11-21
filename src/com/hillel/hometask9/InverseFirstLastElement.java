@@ -2,7 +2,7 @@ package com.hillel.hometask9;
 
 public class InverseFirstLastElement {
     public static void invArray(char[] chArr) {
-        int l = chArr.length - 1;
+
         char num = 0;
         char first = chArr[0];
         char last = 0;
@@ -17,7 +17,7 @@ public class InverseFirstLastElement {
 
         for (int i = 0; i <chArr.length; i++) {
 
-            if(i==l){
+            if(i==chArr.length-1){
                 last =first;
                 first = chArr[i];
             }
@@ -25,8 +25,8 @@ public class InverseFirstLastElement {
 
         System.out.print(first+" ");
 
-        for(int i = 1;i<l;i++) {
-        if (i != l && i != 0) {
+        for(int i = 1;i<chArr.length-1;i++) {
+        if (i != chArr.length-1 && i != 0) {
                 num = chArr[i];
                 System.out.print(num+" ");
             }
