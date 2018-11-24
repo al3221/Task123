@@ -4,6 +4,5 @@ public class Object {
     public static void main(String[] args) {
         Godzilla big = new Godzilla();
         big.eat();
-        //
     }
 }
