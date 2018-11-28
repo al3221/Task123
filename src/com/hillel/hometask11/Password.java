@@ -35,29 +35,3 @@ public class Password {
                 }
         }
 }
-//    private static char[] ourPassword = new char [8];
-//
-//    public static void pass(){
-//
-//    String lowSymb = "abcdefghijklmnopqrstuvwxyz";
-//    char[] arrayLowSymb = lowSymb.toCharArray();
-//    String bigSymb = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//    char[] arrayBigSymb = bigSymb.toCharArray();
-//    String numb = "0123456789";
-//    char[] arrayNumb = numb.toCharArray();
-//    String ourSymb = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
-//
-//
-//      ourPassword[1] = arrayLowSymb[Random.randomizer(0,arrayLowSymb.length)];
-//      ourPassword[2] = arrayBigSymb[Random.randomizer(0,arrayBigSymb.length)];
-//      ourPassword[3] = arrayNumb[Random.randomizer(0,arrayNumb.length)];
-//      for (int i = 4 ; i < ourPassword.length();i++ ){
-//          i = Random.randomizer(0,ourSymb.length());
-//      }
-//
-//        System.out.println(ourPassword);
-//    }
-//    public static void main(String[] args) {
-//      pass();
-//    }
-//}
