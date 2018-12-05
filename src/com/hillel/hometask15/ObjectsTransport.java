@@ -13,5 +13,6 @@ public class ObjectsTransport {
         plane.model();
         plane.nowTmpSpeedOfPlane();
         plane.showColour("Blue");
+        //
     }
 }
