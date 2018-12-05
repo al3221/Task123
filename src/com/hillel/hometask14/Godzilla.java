@@ -1,19 +1,23 @@
 package com.hillel.hometask14;
 
-public class Godzilla {
-    private int capacity = 1000;
-    private int meat = 0;
+import com.hillel.utilities.InputInt;
 
-    public void eat(){
-        meat = meat + 50;
+public class Godzilla {
+    private final int FIXED_EATEAN_VOL = 50;
+    private final int MAX_VOLUME = 1000;
+    private final int MIN_LIMIT = (90*100)/MAX_VOLUME;
+    private int currentVolume = MAX_VOLUME;
+
+    public void eat(int number){
+        int eteanVolume = number * FIXED_EATEAN_VOL;
+        if ((currentVolume - eteanVolume) >= MIN_LIMIT) {
+            currentVolume = currentVolume - eteanVolume;
+        } else {
+            System.out.println("ALARM, I don't want to eat, I am not hungry! ");
+        }
+
     }
-    public int isHungry(){
-            if (meat >= (90*capacity)/100) {
-                System.out.println("Существо сыто");
-            }
-       else {
-                System.out.println("Существо все еще голодное");
-            }
-            return meat;
-    }
+
 }
+
+
