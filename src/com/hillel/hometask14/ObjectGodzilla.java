@@ -4,10 +4,17 @@ import com.hillel.utilities.InputInt;
 
 public class ObjectGodzilla {
     public static void main(String[] args) {
-        Godzilla big = new Godzilla();
-        System.out.println("Введите, сколько людей съест Годзилла");
-        int n = InputInt.input();
-        big.eat(n);
+        Godzilla g = new Godzilla();
+        while (true) {
+            System.out.println("Введите сколько нужно съесть Годзилле сейчас?");
+            int vol = InputInt.input();
+
+            g.eat(vol);
+            g.showCurrentVolume();
+            if (!g.isHungry()) {
+                break;
+            }
+        }
     }
 }
 
